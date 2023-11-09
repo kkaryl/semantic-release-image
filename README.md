@@ -1,6 +1,6 @@
 # semantic-release-image
 
-![Release Docker Image](https://github.com/smartive/semantic-release-image/workflows/Release%20Docker%20Image/badge.svg)
+![Release Docker Image](https://github.com/kkaryl/semantic-release-image/workflows/Release%20Docker%20Image/badge.svg)
 
 `docker pull kkaryl/semantic-release-image`
 

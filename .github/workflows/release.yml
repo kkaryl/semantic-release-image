@@ -22,7 +22,7 @@ jobs:
         shell: bash
         run: |
           export TAG=$(date -u +"%FT%H-%M-%SUTC")
-          docker build -t smartive/semantic-release-image:latest .
+          docker build -t kkaryl/semantic-release-image:latest .
           docker tag kkaryl/semantic-release-image:latest kkaryl/semantic-release-image:$TAG
           docker push kkaryl/semantic-release-image:latest
           docker push kkaryl/semantic-release-image:$TAG
